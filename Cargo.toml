@@ -2,10 +2,12 @@
 name = "env_vars_explorer"
 version = "0.1.0"
 edition = "2021"
+authors = ["sam0x17"]
+description = "Enumerates and prints environment variables available at compile-time"
+repository = "https://github.com/sam0x17/env_vars_explorer"
+license = "MIT"
 
 [lib]
 proc-macro = true
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
